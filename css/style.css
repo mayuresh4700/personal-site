@@ -122,3 +122,15 @@ hr {
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
   }
+
+  @media only screen and (max-width: 618px) {
+   .mountain{
+    height: 10rem;
+   }
+   .bottom-cloud{
+    display: none;
+}  
+h1{
+    font-size: 4.625rem;
+}
+  }
